@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.roulette-box {
+  font-size: 2rem;
+  height: 80px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #ff8c00;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e67600;
+}
+
+#result {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+bootstrap / tell wind 등의 css 라이브러리 사이
